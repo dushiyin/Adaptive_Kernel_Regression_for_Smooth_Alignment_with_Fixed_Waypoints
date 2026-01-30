@@ -2,12 +2,10 @@
 
 This repository contains the source code for the arXiv preprint:
 
-> **Adaptive Kernel Regression for Constrained Route Alignment:  
-Theory and Iterative Data Sharpening**  
+> **Adaptive Kernel Regression for Constrained Route Alignment: Theory and Iterative Data Sharpening**  
 > arXiv:2501.01344
 
-The repository implements the **ANW (adaptive Nadaraya-Watson kernel regression estimator)** and  
-**DS-ANW (data–sharpened ANW)** methods proposed in the paper.
+The repository implements the **ANW (adaptive Nadaraya-Watson kernel regression estimator)** and **DS-ANW (data–sharpened ANW)** methods proposed in the paper.
 
 ---
 
