@@ -24,5 +24,5 @@ non-Gaussian models.
 
 ## Citation
 
-If you use the code in this repository for your research, please cite:
+If you use the code in this repository for your research, please cite our paper:
 
