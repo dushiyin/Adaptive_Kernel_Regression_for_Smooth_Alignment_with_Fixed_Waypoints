@@ -71,6 +71,68 @@ This folder contains scripts for **real-world route alignment applications**.
 
 ## Usage Instructions
 
+This repository is organized to facilitate reproducibility of the numerical
+experiments and empirical applications reported in the paper. All scripts are
+written in R and can be executed independently.
+
+---
+
+### Recommended Environment
+
+- R (version 4.1 or higher recommended)
+- The following R packages are required:
+  - `stats`, `splines`, `mgcv`, `ggplot2`
+  - `sf`, `geosphere`, `raster` (for real-world applications)
+  
+Additional package requirements are documented at the beginning of each script.
+
+---
+
+### Simulation Studies
+
+The `simulation/` folder contains scripts for controlled numerical experiments.
+
+- One-dimensional simulations:
+  - `1D_all_methods.R`
+  - `1D_anw_vs_nw.R`
+
+- Two-dimensional simulations:
+  - `2D_all_methods.R`
+  - `2D_anw_vs_nw.R`
+
+Each script generates simulated data, applies the proposed and competing
+methods, and produces numerical summaries and figures corresponding to the
+simulation results reported in the paper.
+
+---
+
+### Real-world Applications
+
+The `application/` folder contains scripts for empirical route alignment
+applications.
+
+- Highway data:
+  - `highway_all_methods.R`
+  - `highway_anw_vs_nw.R`
+  - `highway_all_methods_map.R`
+
+- Railway and high-speed rail data:
+  - `rail_all_methods.R`
+  - `rail_anw_vs_nw.R`
+  - `high-speed_rail.R`
+
+These scripts reproduce the empirical results and visualizations presented
+in the application section of the paper.
+
+---
+
+### Notes
+
+- Each script is self-contained and can be run independently.
+- Random seeds are set within scripts to ensure reproducibility.
+- Due to data availability constraints, some datasets may need to be obtained
+  separately as described in the paper.
+
 ## Contact
 
 If you have any questions, please contact us at [dusy77@student.ubc.ca].
