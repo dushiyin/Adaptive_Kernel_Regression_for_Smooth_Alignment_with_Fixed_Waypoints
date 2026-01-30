@@ -22,6 +22,51 @@ Route alignment design in surveying and transportation engineering frequently in
 
 ## File Structure
 
+This repository contains the complete implementation of the proposed Adaptive Nadaraya–Watson (ANW) regression and iterative data-sharpening methods, along with baseline methods used for comparison in both simulation studies and real-world applications.
+
+
+### `application/`
+
+This folder contains scripts for **real-world route alignment applications**.
+
+- `high-speed_rail.R`  
+  Implements the proposed methods on high-speed rail alignment data.
+
+- `highway_all_methods.R`  
+  Applies all competing methods (including NW and ANW-based approaches)
+  to highway alignment data for comprehensive comparison.
+
+- `highway_all_methods_map.R`  
+  Generates map-based visualizations of the highway alignment results.
+
+- `highway_anw_vs_nw.R`  
+  Focuses on the comparison between the standard Nadaraya–Watson estimator
+  and the proposed Adaptive Nadaraya–Watson method for highway data.
+
+- `rail_all_methods.R`  
+  Applies all methods to railway alignment data.
+
+- `rail_anw_vs_nw.R`  
+  Direct comparison between NW and ANW methods on railway alignment data.
+
+---
+
+### `simulation/`
+
+This folder contains scripts for **controlled simulation studies** designed
+to evaluate the numerical properties of the proposed methods.
+
+- `1D_all_methods.R`  
+  One-dimensional simulation comparing all competing methods.
+
+- `1D_anw_vs_nw.R`  
+  One-dimensional simulation focusing on NW versus ANW comparison.
+
+- `2D_all_methods.R`  
+  Two-dimensional simulation comparing all competing methods.
+
+- `2D_anw_vs_nw.R`  
+  Two-dimensional simulation focusing on NW versus ANW comparison.
 
 
 ## Usage Instructions
