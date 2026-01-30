@@ -133,11 +133,6 @@ in the application section of the paper.
 
 ## Data Availability
 
-The datasets used in the simulation studies are generated synthetically
-within the provided scripts.
-
-## Data Availability
-
 All simulation datasets are generated synthetically and can be fully
 reproduced using the scripts provided in the `simulation/` folder.
 
