@@ -9,7 +9,6 @@ This repository contains the source code for the arXiv preprint:
 
 The repository implements the **ANW (adaptive Nadaraya-Watson kernel regression estimator)** and **DS-ANW (data–sharpened ANW)** methods proposed in the paper.
 
----
 
 ## Citation
 
