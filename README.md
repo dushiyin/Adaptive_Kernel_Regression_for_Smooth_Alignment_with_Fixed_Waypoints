@@ -1,4 +1,4 @@
-# Adaptive_Kernel_Regression_for_Smooth_Alignment_with_Fixed_Waypoints
+# Adaptive-Kernel-Regression-for-Smooth-Alignment-with-Fixed-Waypoints
 
 ## Source Code for "Adaptive Kernel Regression for Constrained Route Alignment"
 
