@@ -25,6 +25,25 @@ Route alignment design in surveying and transportation engineering frequently in
 This repository contains the complete implementation of the proposed Adaptive Nadaraya–Watson (ANW) regression and iterative data-sharpening methods, along with baseline methods used for comparison in both simulation studies and real-world applications.
 
 
+
+
+### `simulation/`
+
+This folder contains scripts for **controlled simulation studies** designed
+to evaluate the numerical properties of the proposed methods.
+
+- `1D_all_methods.R`  
+  One-dimensional simulation comparing all competing methods.
+
+- `1D_anw_vs_nw.R`  
+  One-dimensional simulation focusing on NW versus ANW comparison.
+
+- `2D_all_methods.R`  
+  Two-dimensional simulation comparing all competing methods.
+
+- `2D_anw_vs_nw.R`  
+  Two-dimensional simulation focusing on NW versus ANW comparison.
+
 ### `application/`
 
 This folder contains scripts for **real-world route alignment applications**.
@@ -48,25 +67,6 @@ This folder contains scripts for **real-world route alignment applications**.
 
 - `rail_anw_vs_nw.R`  
   Direct comparison between NW and ANW methods on railway alignment data.
-
----
-
-### `simulation/`
-
-This folder contains scripts for **controlled simulation studies** designed
-to evaluate the numerical properties of the proposed methods.
-
-- `1D_all_methods.R`  
-  One-dimensional simulation comparing all competing methods.
-
-- `1D_anw_vs_nw.R`  
-  One-dimensional simulation focusing on NW versus ANW comparison.
-
-- `2D_all_methods.R`  
-  Two-dimensional simulation comparing all competing methods.
-
-- `2D_anw_vs_nw.R`  
-  Two-dimensional simulation focusing on NW versus ANW comparison.
 
 
 ## Usage Instructions
