@@ -75,7 +75,7 @@ This repository is organized to facilitate reproducibility of the numerical
 experiments and empirical applications reported in the paper. All scripts are
 written in R and can be executed independently.
 
----
+ 
 
 ### Recommended Environment
 
@@ -86,7 +86,7 @@ written in R and can be executed independently.
   
 Additional package requirements are documented at the beginning of each script.
 
----
+ 
 
 ### Simulation Studies
 
@@ -104,7 +104,7 @@ Each script generates simulated data, applies the proposed and competing
 methods, and produces numerical summaries and figures corresponding to the
 simulation results reported in the paper.
 
----
+ 
 
 ### Real-world Applications
 
@@ -124,7 +124,7 @@ applications.
 These scripts reproduce the empirical results and visualizations presented
 in the application section of the paper.
 
----
+ 
 
 ### Notes
 
@@ -136,13 +136,27 @@ in the application section of the paper.
 The datasets used in the simulation studies are generated synthetically
 within the provided scripts.
 
-For real-world applications, some datasets are subject to availability
-and licensing constraints and are therefore not redistributed in this
-repository. Details on the data sources and preprocessing procedures are
-described in the paper.
+## Data Availability
 
-Where applicable, publicly available datasets can be obtained from the
-original sources cited in the manuscript.
+All simulation datasets are generated synthetically and can be fully
+reproduced using the scripts provided in the `simulation/` folder.
+
+For real-world applications, the datasets are publicly available but are
+not redistributed in this repository due to data availability and licensing
+considerations. The original data sources are listed below.
+
+- **Railway data**  
+  The railway alignment data are obtained from VIA Rail Canada and are
+  publicly accessible through the VIA Rail Developer Resources portal:  
+  https://www.viarail.ca/en/developer-resources
+
+- **Highway data**  
+  The highway alignment data are obtained from the Government of
+  Saskatchewan Open Data Portal:  
+  https://geohub.saskatchewan.ca/datasets/da074f6eb1814ef1b033b7a090c93cd3/about
+
+Details on data preprocessing, coordinate systems, and route extraction
+procedures are described in the paper.
 
 
 ## Contact
