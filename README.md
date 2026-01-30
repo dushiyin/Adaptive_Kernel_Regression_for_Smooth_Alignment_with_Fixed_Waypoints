@@ -1,12 +1,13 @@
 # Adaptive Kernel Regression for Smooth Alignment with Fixed Waypoints
 
-This repository contains the source code for the paper:
+This repository contains the source code for the arXiv preprint:
 
-> **Energy-based segmentation methods for images with non-Gaussian noise**  
-> *Scientific Reports*, 2025
+> **Adaptive Kernel Regression for Constrained Route Alignment:  
+Theory and Iterative Data Sharpening**  
+> arXiv:2501.01344
 
-The repository implements the **EBS (Energy-Based Segmentation)** and  
-**MEBS (Multiple Energy-Based Segmentation)** methods proposed in the paper.
+The repository implements the **ANW (adaptive Nadaraya-Watson kernel regression estimator)** and  
+**DS-ANW (data–sharpened ANW)** methods proposed in the paper.
 
 ---
 
