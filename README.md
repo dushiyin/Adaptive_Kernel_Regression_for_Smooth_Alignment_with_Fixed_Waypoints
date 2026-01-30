@@ -130,8 +130,20 @@ in the application section of the paper.
 
 - Each script is self-contained and can be run independently.
 - Random seeds are set within scripts to ensure reproducibility.
-- Due to data availability constraints, some datasets may need to be obtained
-  separately as described in the paper.
+
+## Data Availability
+
+The datasets used in the simulation studies are generated synthetically
+within the provided scripts.
+
+For real-world applications, some datasets are subject to availability
+and licensing constraints and are therefore not redistributed in this
+repository. Details on the data sources and preprocessing procedures are
+described in the paper.
+
+Where applicable, publicly available datasets can be obtained from the
+original sources cited in the manuscript.
+
 
 ## Contact
 
